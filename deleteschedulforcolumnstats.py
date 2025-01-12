@@ -13,7 +13,7 @@ source_file_path = "/home/ec2-user/columnname/database_table_columns_list.txt"
 log_file_path = os.path.join(base_path, "gluestatlogfile.txt")
  
 # Constants
-catalog_id = "833673263127"
+catalog_id = ""
  
 # Boto3 clients
 glue_client = boto3.client("glue")
